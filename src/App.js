@@ -1,10 +1,15 @@
-import Hero from "./components/Hero";
-
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Offers from './components/Offers';
+import Plan from './components/Plan';
 
 function App() {
   return (
     <div className="App">
-<Hero /> 
+      <Navbar />
+      <Hero />
+      <Offers />
+      <Plan />
     </div>
   );
 }

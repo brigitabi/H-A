@@ -11,14 +11,14 @@ const Hero = () => {
       <div className="bg-black/30 absolute top-0 left-0 w-full h-screen" />
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
         <div className="md:left-[10%] max-w-[1100px] m-auto absolute p-4">
-          <h1 className="font-bold text-3xl md:text-6xl drop-shadow-2xl mt-8">
+          <h1 className="text-3xl md:text-6xl drop-shadow-2xl mt-8">
             Looking to discover how to create a better, more efficient and
             pleasant living environment?
           </h1>
           <p className="max-w-[600px] drop-shadow-2xl py-2 text-xl mt-10">
-            Connecting you to the best professionals ~ Begin your journey here. 
+            Connecting you to the best professionals ~ Begin your journey HERE. 
           </p>
-          <button className='bg-white text-black mt-4'> Hire & Admire Now</button>
+          <button className='bg-white text-black mt-9'> Hire & Admire Now</button>
         </div>
       </div>
     </div>

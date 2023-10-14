@@ -8,3 +8,11 @@
   }
 }
 
+
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400&family=Fauna+One&display=swap");
+
+body {
+  /* background-color: black; */
+  font-family: 'Palatino', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
