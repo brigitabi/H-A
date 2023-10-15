@@ -3,6 +3,8 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
 const ImageSlider = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  
   const slides = [
     {
       url: 'https://images.unsplash.com/photo-1606011082438-5e55fea65538?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2624&q=80',
@@ -21,8 +23,6 @@ const ImageSlider = () => {
       title: 'Cleaning',
     },
   ];
-
-  const [currentIndex, setCurrentIndex] = useState(0);
 
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;

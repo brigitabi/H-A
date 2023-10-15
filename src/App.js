@@ -1,22 +1,18 @@
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import ImageSlider from './components/ImageSlider';
-import Interior from './components/Interior';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Offers from './components/Offers';
-import Plan from './components/Plan';
+import Career from './pages/Career';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <Hero />
-      <Offers />
-      <Plan />
-      <Interior />
-      <ImageSlider />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/career" element={<Career />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+      {/* <Home /> */}
+    </>
   );
 }
 
