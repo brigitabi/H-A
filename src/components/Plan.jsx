@@ -6,7 +6,7 @@ const Plan = () => {
       {/* left side */}
       <div className="grid grid-cols-2 grid-rows-6 h-[80vh]">
         <img
-          className="row-span-3 object-cover w-full h-full p-2 hover:scale-90"
+          className="row-span-3 object-cover w-full h-full p-2 hover:scale-90 hover:shadow-xl"
           src="https://plus.unsplash.com/premium_photo-1683127814960-3a97c4f0d882?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGhvbWUlMjBlbGVjdHJpY2l0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt="/"
         />

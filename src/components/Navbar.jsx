@@ -1,27 +1,28 @@
 import React, { useState } from 'react';
 import { HiOutlineMenu } from 'react-icons/hi';
+// import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
-
-  const handleNav = () => { 
+  const handleNav = () => {
     setNav(!nav);
-    if(!nav) {
-        document.body.style.overflow = 'hidden'
-    } else { 
-        document.body.style.overflow = 'scroll'
+    if (!nav) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'scroll';
     }
-  }
+  };
 
   return (
     <div className="absolute w-full flex justify-between p-4 items-center">
-      <h1 className="text-white font-bold text-2xl z-20">
-        {' '}
-        HIRE & ADMIRE
-      </h1>
+      <h1 className="text-white font-bold text-2xl z-20"> HIRE & ADMIRE</h1>
 
-      <HiOutlineMenu onClick={handleNav} className="z-20 cursor-pointer text-white" size={30} />
+      <HiOutlineMenu
+        onClick={handleNav}
+        className="z-20 cursor-pointer text-white"
+        size={30}
+      />
       <div
         className={
           nav
@@ -33,7 +34,9 @@ const Navbar = () => {
           <li className="font-bold text-3xl p-8">Home</li>
           <li className="font-bold text-3xl p-8">Interior</li>
           <li className="font-bold text-3xl p-8">Exterior</li>
-          <li className="font-bold text-3xl p-8"> Careers </li>
+          {/* <Link to="/career"> */}
+            <li className="font-bold text-3xl p-8"> Careers </li>
+          {/* </Link> */}
         </ul>
       </div>
     </div>
