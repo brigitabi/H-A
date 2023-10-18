@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { HiOutlineMenu } from 'react-icons/hi';
-import {  NavLink } from 'react-router-dom';
-
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-
 
   const handleNav = () => {
     setNav(!nav);
@@ -15,8 +13,6 @@ const Navbar = () => {
       document.body.style.overflow = 'scroll';
     }
   };
-
-
 
   return (
     <div className="absolute w-full flex justify-between p-4 items-center">
@@ -36,11 +32,25 @@ const Navbar = () => {
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
           <li className="font-bold text-3xl p-8">Home</li>
-          <li className="font-bold text-3xl p-8">Interior</li>
+
+          <Link
+            to="interior"
+            smooth={true}
+            duration={500}
+            onClick={() => {
+              setNav(false);
+            }}
+          >
+            <li className="font-bold text-3xl p-8">Interior</li>{' '}
+          </Link>
           <li className="font-bold text-3xl p-8">Exterior</li>
-          <NavLink to="/career" onClick={() => {
-            setNav(false)
-          }}>
+
+          <NavLink
+            to="/career"
+            onClick={() => {
+              setNav(false);
+            }}
+          >
             <li className="font-bold text-3xl p-8"> Careers </li>
           </NavLink>
         </ul>

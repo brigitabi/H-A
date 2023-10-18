@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { TiSocialPinterest } from 'react-icons/ti';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -29,7 +30,8 @@ const Footer = () => {
           <ul className="mt-2">
             <li clasName="py-1">About</li>
             <li clasName="py-1">Blog</li>
-            <li clasName="py-1">Careers</li>
+            <NavLink to="/career" >
+            <li clasName="py-1">Careers</li></NavLink>
             <li clasName="py-1">Press</li>
             <li clasName="py-1">Partners</li>
           </ul>
