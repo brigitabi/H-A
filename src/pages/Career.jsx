@@ -21,7 +21,7 @@ const Career = () => {
         </p>
       </div>
 
-      <div className="bg-white p-8 rounded-lg shadow-lg max-w-3xl mt-8 flex space-x-3 mb-8">
+      <div className="bg-white max-w-[900px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
         <img
           src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
           alt="Collaboration"
@@ -39,7 +39,7 @@ const Career = () => {
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 h-max-[250px] mt-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 h-max-[250px] mt-4">
         <h2 className="col-span-3 ml-6 text-2xl font-bold text-center underline">
           Our core values are
         </h2>

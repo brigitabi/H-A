@@ -2,12 +2,24 @@ import React from 'react';
 
 const Interior = () => {
   return (
-    <div name='interior' className="max-w-[1400px] h-[1450px] bg-gray-100 mx-auto my-20 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 rounded-md">
+    <div
+      className="max-w-[1400px] h-[1450px] bg-gray-100 mx-auto my-15 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-3 gap-4 rounded-md"
+    >
       <div className="lg:top-20 relative lg:col-span-1 col-span-2">
-        <h3 className="text-2xl font-bold">Interior Homme Repair</h3>
+        <h3 className="text-2xl font-bold">Interior Home Repair</h3>
         <p className="pt-4">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
-          ipsa sint eum velit quis id.
+          At Hire & Admire, we understand that the heart of your home is its
+          interior. That's why we offer a comprehensive range of internal home
+          repair services to help you maintain, enhance, and restore the beauty
+          and functionality of your living spaces. Whether it's fixing a leaky
+          faucet, updating your electrical systems, repairing damaged walls, or
+          renovating your kitchen or bathroom, our skilled professionals are
+          here to ensure your home's interior remains comfortable and safe. With
+          a focus on quality workmanship and attention to detail, we take pride
+          in delivering reliable solutions that transform your house into a
+          place you'll truly admire. Trust Hire & Admire for all your internal
+          home repair needs and enjoy a comfortable, beautiful, and
+          well-maintained living space."
         </p>
       </div>
 

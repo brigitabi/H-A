@@ -6,7 +6,7 @@ const Offers = () => {
       <p className='text-lg font-bold text-gray-700'>Booking Incentives</p>
       <p className='text-lg font-bold text-gray-700'>Fair Prices</p>
       <p className='text-lg font-bold text-gray-700'>Book with Flexibility</p>
-      <p className='text-lg font-bold text-gray-700'>Fair Prices</p>
+      <p className='text-lg font-bold text-gray-700'>Wonderful Service</p>
 
     </div>
   );
